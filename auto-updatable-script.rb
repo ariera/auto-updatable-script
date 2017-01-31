@@ -21,3 +21,4 @@ class ScriptUpdater
 end
 
 ScriptUpdater.new
+puts "done :)"
