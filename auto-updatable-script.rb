@@ -12,7 +12,7 @@ class ScriptUpdater
     if remote_script_digest != local_script_digest
       puts "script needs update"
       File.open(__FILE__, 'w') do |file|
-        file.puts local_script_content
+        file.puts remote_script_content
       end
     else
       puts "no update needed"
